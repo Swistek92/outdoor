@@ -9,7 +9,7 @@
       rel="stylesheet"
     />
 
-    <link rel="stylesheet" href="css/icon-font.css" />
+    <!-- <link rel="stylesheet" href="css/icon-font.css" /> -->
     <link rel="stylesheet" href="css/style.css" />
     <link rel="shortcut icon" type="image/png" href="img/favicon.ico" />
 
@@ -40,7 +40,7 @@
             exciting tours for adventurous people
           </h2>
         </div>
-
+        <!-- Paragraphs -->
         <div class="row">
           <div class="col-1-of-2">
             <h3 class="heading-tertiary u-margin-bottom-small">
@@ -75,6 +75,7 @@
 
             <a href="#" class="button-text">learn more &rarr; </a>
           </div>
+          <!-- IMGS -->
           <div class="col-1-of-2">
             <div class="composition">
               <img
@@ -332,7 +333,123 @@
           <a href="#" class="btn btn--green"> Discover all tours &rarr;</a>
         </div>
       </section>
+
+      <!-- SECTION FORM -->
+
+      <section class="section-book">
+        <div class="row">
+          <div class="book">
+            <div class="book__form">
+              <!-- header -->
+              <div class="u-margin-bottom-medium">
+                <h2 class="heading-secondary">Start booking now</h2>
+              </div>
+              <!-- // -->
+              <form action="#" class="form">
+                <!-- NAME -->
+                <div class="form__group">
+                  <input
+                    type="text"
+                    class="form__input"
+                    placeholder="Full Name"
+                    required
+                    id="name"
+                  />
+                  <label for="name" class="form__label">Full Name</label>
+                </div>
+                <!-- EMAIL -->
+
+                <div class="form__group">
+                  <input
+                    type="email"
+                    class="form__input"
+                    placeholder="Email address"
+                    required
+                    id="email"
+                  />
+                  <label for="email" class="form__label">Email address</label>
+                </div>
+
+                <div class="forum__gorup">
+                  <div class="form__group u-margin-bottom-medium">
+                    <div class="form__radio-group">
+                      <input
+                        type="radio"
+                        class="form__radio-input"
+                        id="small"
+                        name="size"
+                      />
+                      <label for="small" class="form__radio-label">
+                        <span class="form__radio-button"></span>
+                        Small tour group
+                      </label>
+                    </div>
+
+                    <div class="form__radio-group">
+                      <input
+                        type="radio"
+                        class="form__radio-input"
+                        id="large"
+                        name="size"
+                      />
+                      <label for="large" class="form__radio-label">
+                        <span class="form__radio-button"></span>
+                        Large tour group
+                      </label>
+                    </div>
+                  </div>
+
+                  <div class="form_group">
+                    <button class="btn btn--green">next steep &rarr;</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- END OF MAIN -->
     </main>
+
+    <footer class="footer">
+      <div class="footer__logo-box">
+        <img src="img/logo-green-2x.png" alt="full logo" class="footer__logo" />
+      </div>
+
+      <div class="row">
+        <div class="col-1-of-2">
+          <div class="footer__naviagtion">
+            <ul class="footer__list">
+              <li class="footer__item">
+                <a href="#" class="footer__link">Company</a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">contact us</a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">carrers</a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">privacy policy</a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">Terms</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-1-of-2">
+          <p class="footer__copyright">
+            build my <a href="#" class="footer__link">Jonas Schmedtmann</a> for
+            his online course
+            <a href="#" class="footer__link">advanced css and sass</a>.
+            Copyright &copy; by Jonas Schmedtmann. You are 100% allowed to use
+            this website but not to claim it as your own design. a credit to
+            orginal author. Jonas Schmedtmann is of course hight appreciated !
+          </p>
+        </div>
+      </div>
+    </footer>
 
     <!-- <section class="grid-test">
       <div class="row">
